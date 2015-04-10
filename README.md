@@ -9,7 +9,7 @@ Para mais informações sobre o plugin visite www.totalpoll.com.
 
 # Notas
 
-A tradução foi feita e testada com o *TotalPoll 2.6* e *Wordpress 4.1.1*.
+A tradução foi feita e testada com o **TotalPoll 2.6** e **Wordpress 4.1.1**.
 
 
 # Como usar
