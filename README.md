@@ -1,8 +1,10 @@
-# Tradução pt_BR para o plugin de Wordpress TotalPoll
+# TotalPoll em português brasileiro
 
-Coloque o seu TotalPoll em português brasileiro.
+Tradução pt_BR para o plugin de Wordpress TotalPoll.
+
 TotalPoll é um plugin de enquetes para worpress, simples, poderoso e customizavel.
-Para mais informações visite www.totalpoll.com.
+
+Para mais informações sobre o plugin visite www.totalpoll.com.
 
 
 # Notas
@@ -16,7 +18,7 @@ Coloque os dois arquivos `totalpoll-pt_BR.mo` e `totalpoll-pt_BR.po` na pasta:
 wp-content/plugins/totalpoll/languages
 ```
 
-Pronto! Quando acessar a página de administração do Wordpress verá que o item Poll do menu terá se transformado em Enquetes.
+Quando acessar a página de administração do Wordpress verá que o item Poll do menu terá se transformado em Enquetes.
 
 #Contribua
 
