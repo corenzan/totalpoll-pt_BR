@@ -1,1159 +1,2377 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: TotalPoll\n"
-"POT-Creation-Date: 2015-04-09 11:55-0300\n"
-"PO-Revision-Date: 2015-04-09 12:10-0300\n"
-"Last-Translator: WPStore <translation@wpsto.re>\n"
-"Language-Team: Hugo Corenzan <translate@corenzan.com>\n"
+"Project-Id-Version: TotalPoll 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-31 10:47+0100\n"
+"PO-Revision-Date: 2018-07-27 15:01-0300\n"
+"Last-Translator: misqtech <misqtech@gmail.com>\n"
+"Language-Team: Corenzan <contato@corenzan.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ../includes\n"
-"X-Poedit-SearchPath-1: ../assets\n"
-"X-Poedit-SearchPath-2: ../templates/default\n"
-"X-Poedit-SearchPath-3: ../templates/chartify\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: pt_PT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
 
-#: ../includes/admin/addons.php:4
-msgid "Install Addons"
-msgstr "Instalar Complementos"
+#: includes/admin/ajax.php:50 includes/admin/ajax.php:59
+#: includes/admin/ajax.php:84 includes/admin/ajax.php:93
+msgid "Invalid argument passed"
+msgstr "Argumento inválido"
 
-#: ../includes/admin/addons.php:7 ../includes/admin/templates.php:6
-msgid "Changes has been saved."
-msgstr "As alterações foram salvas."
+#: includes/admin/bootstrap.php:168 includes/admin/bootstrap.php:408
+msgid "Title"
+msgstr "Título"
 
-#: ../includes/admin/addons.php:10
-msgid "Install an addon in .zip format"
-msgstr "Instalar um complemento em formato. zip"
-
-#: ../includes/admin/addons.php:11
-msgid ""
-"If you have an addon in a .zip format, you may install it by uploading it "
-"here."
-msgstr ""
-"Se você tem um complemento em formato. zip, você pode instalá-lo por meio de "
-"upload aqui."
-
-#: ../includes/admin/addons.php:15
-msgid "Addon zip file"
-msgstr "Arquivo zip de complemento"
-
-#: ../includes/admin/addons.php:17 ../includes/admin/templates.php:17
-msgid "Install Now"
-msgstr "Instalar Agora"
-
-#: ../includes/admin/addons.php:22
-msgid "Available Addons"
-msgstr "Complementos disponíveis"
-
-#: ../includes/admin/addons.php:23
-msgid "Available installed addons"
-msgstr "Complementos instalados disponíveis"
-
-#: ../includes/admin/addons.php:31
-msgid "Status"
-msgstr "Status"
-
-#: ../includes/admin/addons.php:32 ../includes/admin/templates.php:31
-msgid "Name"
-msgstr "Nome"
-
-#: ../includes/admin/addons.php:33 ../includes/admin/templates.php:32
-msgid "Description"
-msgstr "Descrição"
-
-#: ../includes/admin/addons.php:34 ../includes/admin/templates.php:33
-msgid "Author"
-msgstr "Autor"
-
-#: ../includes/admin/addons.php:35 ../includes/admin/templates.php:34
-msgid "Version"
-msgstr "Versão"
-
-#: ../includes/admin/addons.php:36
-msgid "Compatiblity"
-msgstr "Compatibilidade"
-
-#: ../includes/admin/addons.php:49
-msgid "Active"
-msgstr "Ativo"
-
-#: ../includes/admin/addons.php:49
-msgid "Inactive"
-msgstr "Inativo"
-
-#: ../includes/admin/addons.php:72
-msgid "Compatible"
-msgstr "Compatível"
-
-#: ../includes/admin/addons.php:72
-msgid "Incompatible"
-msgstr "Incompatível"
-
-#: ../includes/admin/addons.php:78
-msgid "Nothing. Seriously."
-msgstr "Absolutamente nada!"
-
-#: ../includes/admin/addons.php:84
-msgid "Activate"
-msgstr "Ativar"
-
-#: ../includes/admin/addons.php:86
-msgid "Deactivate"
-msgstr "Desativar"
-
-#: ../includes/admin/addons.php:88 ../includes/admin/templates.php:74
-msgid "Are you sure?"
-msgstr "Tem certeza?"
-
-#: ../includes/admin/addons.php:88 ../includes/admin/editor/design.php:48
-#: ../includes/admin/templates.php:74
-msgid "Delete"
-msgstr "Excluir"
-
-#: ../includes/admin/editor/choices.php:5
-msgid "Choices"
-msgstr "Escolhas"
-
-#: ../includes/admin/editor/choices.php:9
-msgid "Override votes"
-msgstr "Substituir votos"
-
-#: ../includes/admin/editor/choices.php:12
-#: ../includes/admin/editor/choices.php:28
-#: ../includes/admin/editor/choices.php:29
-#: ../includes/admin/editor/footer.php:9
-#: ../includes/admin/editor/footer.php:10
-#: ../includes/admin/editor/footer.php:93
-msgid "Text"
-msgstr "Texto"
-
-#: ../includes/admin/editor/choices.php:13
-msgid "Link"
-msgstr "Link"
-
-#: ../includes/admin/editor/choices.php:14
-#: ../includes/admin/editor/choices.php:60
-#: ../includes/admin/editor/choices.php:61
-#: ../includes/admin/editor/footer.php:43
-#: ../includes/admin/editor/footer.php:44
-msgid "Image"
-msgstr "Imagem"
-
-#: ../includes/admin/editor/choices.php:15
-msgid "Video"
-msgstr "Video"
-
-#: ../includes/admin/editor/choices.php:16
-msgid "HTML"
-msgstr "HTML"
-
-#: ../includes/admin/editor/choices.php:26
-#: ../includes/admin/editor/choices.php:27
-#: ../includes/admin/editor/choices.php:41
-#: ../includes/admin/editor/choices.php:42
-#: ../includes/admin/editor/choices.php:58
-#: ../includes/admin/editor/choices.php:59
-#: ../includes/admin/editor/choices.php:78
-#: ../includes/admin/editor/choices.php:79
-#: ../includes/admin/editor/choices.php:98
-#: ../includes/admin/editor/choices.php:99
-#: ../includes/admin/editor/choices.php:114
-#: ../includes/admin/editor/choices.php:115
-#: ../includes/admin/editor/footer.php:7 ../includes/admin/editor/footer.php:8
-#: ../includes/admin/editor/footer.php:23
-#: ../includes/admin/editor/footer.php:24
-#: ../includes/admin/editor/footer.php:41
-#: ../includes/admin/editor/footer.php:42
-#: ../includes/admin/editor/footer.php:62
-#: ../includes/admin/editor/footer.php:63
-#: ../includes/admin/editor/footer.php:83
-#: ../includes/admin/editor/footer.php:84
-msgid "Votes"
-msgstr "Votos"
-
-#: ../includes/admin/editor/choices.php:43
-#: ../includes/admin/editor/choices.php:44
-#: ../includes/admin/editor/footer.php:25
-#: ../includes/admin/editor/footer.php:26
-msgid "URL"
-msgstr "URL"
-
-#: ../includes/admin/editor/choices.php:45
-#: ../includes/admin/editor/choices.php:46
-#: ../includes/admin/editor/choices.php:64
-#: ../includes/admin/editor/choices.php:65
-#: ../includes/admin/editor/choices.php:84
-#: ../includes/admin/editor/choices.php:85
-#: ../includes/admin/editor/footer.php:27
-#: ../includes/admin/editor/footer.php:28
-#: ../includes/admin/editor/footer.php:47
-#: ../includes/admin/editor/footer.php:48
-#: ../includes/admin/editor/footer.php:68
-#: ../includes/admin/editor/footer.php:69
-msgid "Label"
-msgstr "Etiqueta"
-
-#: ../includes/admin/editor/choices.php:62
-#: ../includes/admin/editor/footer.php:45
-msgid "Full"
-msgstr "Completo"
-
-#: ../includes/admin/editor/choices.php:63
-#: ../includes/admin/editor/footer.php:46
-msgid "Full Size URL"
-msgstr "URL Completa"
-
-#: ../includes/admin/editor/choices.php:69
-#: ../includes/admin/editor/choices.php:89
-#: ../includes/admin/editor/footer.php:51
-#: ../includes/admin/editor/footer.php:72
-msgid "upload"
-msgstr "Upload"
-
-#: ../includes/admin/editor/choices.php:80
-#: ../includes/admin/editor/choices.php:81
-#: ../includes/admin/editor/footer.php:64
-#: ../includes/admin/editor/footer.php:65
-msgid "Thumbnail"
-msgstr "Imagem Miniatura"
-
-#: ../includes/admin/editor/choices.php:82
-#: ../includes/admin/editor/footer.php:66
-msgid "Embed"
-msgstr "Embutir"
-
-#: ../includes/admin/editor/choices.php:83
-#: ../includes/admin/editor/footer.php:67
-msgid "Video embed code"
-msgstr "Código do Vídeo"
-
-#: ../includes/admin/editor/choices.php:100
-#: ../includes/admin/editor/footer.php:85
-msgid "Code"
+#: includes/admin/bootstrap.php:169 includes/admin/bootstrap.php:525
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
 msgstr "Código"
 
-#: ../includes/admin/editor/design.php:5
-msgid "Design"
-msgstr "Design"
+#: includes/admin/bootstrap.php:170
+msgid "Results Shortcode"
+msgstr "Resultados do Código"
 
-#: ../includes/admin/editor/design.php:24
-msgid "Presets"
-msgstr "Predefinidos"
+#: includes/admin/bootstrap.php:171
+msgid "Total votes"
+msgstr "Total de votos"
 
-#: ../includes/admin/editor/design.php:41
-msgid "Save as"
-msgstr "Salvar como"
+#: includes/admin/bootstrap.php:172 includes/admin/editor.php:310
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/submissions.php:18
+#: includes/admin/editor/browse/submissions.php:33
+#: includes/admin/editor/browse/submissions.php:80
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "Data"
 
-#: ../includes/admin/editor/design.php:46
-msgid "Reset"
-msgstr "Resetar"
-
-#: ../includes/admin/editor/design.php:56
-msgid "Preview Background"
-msgstr "Pré-visualização do Fundo"
-
-#: ../includes/admin/editor/design.php:61
-msgid "Preview Container Background"
-msgstr "Pré-visualização do Fundo do Recipiente"
-
-#: ../includes/admin/editor/footer.php:89
-msgid "Add Media"
-msgstr "Adicionar Mídia"
-
-#: ../includes/admin/editor/footer.php:92
-msgid "Visual"
-msgstr "Visual"
-
-#: ../includes/admin/editor/footer.php:97
-msgid "HTML Code"
-msgstr "Código HTML"
-
-#: ../includes/admin/editor/incompatible.php:2
+#: includes/admin/bootstrap.php:196
 #, php-format
 msgid ""
-"This poll isn't compatible with your current version of TotalPoll. Please <a "
-"href=\"%s\">upgrade your polls</a>."
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
 msgstr ""
-"Esta enquete não é compatível com sua versão atual do TotalPoll. Por favor "
-"<a href=\"%s\">atualize suas pesquisas</a>."
+"É necessário <a href=\"%s\">digitar sua chave de licença Envato</a> para "
+"atualizar o TotalPoll."
 
-#: ../includes/admin/editor/limitations.php:5
-msgid "Limitations"
-msgstr "Limitações"
+#: includes/admin/bootstrap.php:290
+msgid "TotalPoll Options"
+msgstr "Opções do TotalPoll"
 
-#: ../includes/admin/editor/limitations.php:9
-msgid "Prevent re-vote using"
-msgstr "Evitar re-votar usando"
+#: includes/admin/bootstrap.php:290
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+#: includes/admin/partials/options-panel.php:2
+msgid "Options"
+msgstr "Opções"
 
-#: ../includes/admin/editor/limitations.php:12
-msgid "Sessions"
-msgstr "Sessões"
+#: includes/admin/bootstrap.php:291
+msgid "TotalPoll Extensions"
+msgstr "Extensões do TotalPoll"
 
-#: ../includes/admin/editor/limitations.php:15
-msgid "Cookies"
-msgstr "Cookies"
+#: includes/admin/bootstrap.php:291 includes/admin/bootstrap.php:375
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "Extensões"
 
-#: ../includes/admin/editor/limitations.php:18
-msgid "IP"
-msgstr "IP"
+#: includes/admin/bootstrap.php:292
+msgid "TotalPoll Templates"
+msgstr "Modelos do TotalPoll"
 
-#: ../includes/admin/editor/limitations.php:21
-msgid "IP Range (IPv4 only)"
-msgstr "Intervalo de IP (IPv4 somente)"
-
-#: ../includes/admin/editor/limitations.php:27
-msgid "Cookies timeout (minutes)"
-msgstr "Tempo limite dos cookies (minutos)"
-
-#: ../includes/admin/editor/limitations.php:34
-msgid "IP timeout (minutes)"
-msgstr "Tempo limite do IP (minutos)"
-
-#: ../includes/admin/editor/limitations.php:41
-msgid "IP range width (1 to 10)"
-msgstr "Largura de faixa IP (1 a 10)"
-
-#: ../includes/admin/editor/limitations.php:45
-msgid "IP range limits (votes per range)"
-msgstr "Limites de intervalo IP (votos por intervalo)"
-
-#: ../includes/admin/editor/limitations.php:55
-msgid "User must vote to see results"
-msgstr "Usuário deve votar para ver os resultados"
-
-#: ../includes/admin/editor/limitations.php:63
-msgid "User can give multiple answers"
-msgstr "Usuário pode dar respostas múltiplas"
-
-#: ../includes/admin/editor/limitations.php:71
-msgid "Close poll when votes quota exceed"
-msgstr "Fechar a enquete, quando exceder a cota de votos"
-
-#: ../includes/admin/editor/limitations.php:77
-msgid "Votes quota"
-msgstr "Cota de votos"
-
-#: ../includes/admin/editor/limitations.php:86
-msgid "Date limited"
-msgstr "Limitado por data"
-
-#: ../includes/admin/editor/limitations.php:92
-msgid "Start date"
-msgstr "Data inicial"
-
-#: ../includes/admin/editor/limitations.php:96
-msgid "End date"
-msgstr "Data final"
-
-#: ../includes/admin/editor/logs.php:5
-msgid "Logs"
-msgstr "Logs"
-
-#: ../includes/admin/editor/logs.php:10
-msgid "Save logs"
-msgstr "Salvar logs"
-
-#: ../includes/admin/editor/logs.php:17
-msgid "Download logs"
-msgstr "Baixar logs"
-
-#: ../includes/admin/editor/logs.php:18
-msgid "Download old logs (deprecated)"
-msgstr "Baixar logs antigos (obsoleto)"
-
-#: ../includes/admin/editor/logs.php:19
-msgid "Reset logs"
-msgstr "Resetar logs"
-
-#: ../includes/admin/editor/misc.php:5
-msgid "Misc"
-msgstr "Miscelâneas"
-
-#: ../includes/admin/editor/misc.php:10
-msgid "Order results by votes"
-msgstr "Ordenar resultados por votos"
-
-#: ../includes/admin/editor/misc.php:15
-msgid "Ascending"
-msgstr "Crescente"
-
-#: ../includes/admin/editor/misc.php:18
-msgid "Descending"
-msgstr "Decrescente"
-
-#: ../includes/admin/editor/misc.php:26
-msgid "Shuffle choices order"
-msgstr "Embaralhar ordem de escolhas"
-
-#: ../includes/admin/editor/misc.php:32
-msgid "Results are shown as"
-msgstr "Os resultados são apresentados como"
-
-#: ../includes/admin/editor/misc.php:36
-msgid "Number"
-msgstr "Número"
-
-#: ../includes/admin/editor/misc.php:39
-msgid "Percentage"
-msgstr "Porcentagem"
-
-#: ../includes/admin/editor/misc.php:42
-msgid "Both"
-msgstr "Ambos"
-
-#: ../includes/admin/editor/misc.php:45
-msgid "Nothing"
-msgstr "Nada"
-
-#: ../includes/admin/editor/preview.php:60
-msgid "Please wait."
-msgstr "Por favor, aguarde."
-
-#: ../includes/admin/editor/preview.php:73
-msgid "To preview this poll, please save it."
-msgstr "Para visualizar esta enquete, por favor, salve-a."
-
-#: ../includes/admin/editor/question.php:5
-#: ../includes/admin/editor/question.php:8
-#: ../includes/admin/editor/sharing.php:26
-msgid "Question"
-msgstr "Questão"
-
-#: ../includes/admin/editor/reset.php:2
-msgid "Logs has been reset!"
-msgstr "Os logs foram resetados!"
-
-#: ../includes/admin/editor/sharing.php:5
-msgid "Sharing"
-msgstr "Compartilhamento"
-
-#: ../includes/admin/editor/sharing.php:10
-msgid "Show share icons"
-msgstr "Mostrar ícones de compartilhamento"
-
-#: ../includes/admin/editor/sharing.php:19
-msgid "Variable"
-msgstr "Variável"
-
-#: ../includes/admin/editor/sharing.php:20
-msgid "Value"
-msgstr "Valor"
-
-#: ../includes/admin/editor/sharing.php:30
-msgid "Current link"
-msgstr "Link atual"
-
-#: ../includes/admin/editor/sharing.php:38
-msgid "Twitter expression"
-msgstr "Expressão de Twitter"
-
-#: ../includes/admin/editor/sharing.php:45
-msgid "Facebook expression"
-msgstr "Expressão de Facebook"
-
-#: ../includes/admin/editor/sharing.php:52
-msgid "Google+ expression"
-msgstr "Expressão de Google+"
-
-#: ../includes/admin/editor/shortcode.php:5 ../includes/class-admin.php:55
-msgid "Shortcode"
-msgstr "Shortcode"
-
-#: ../includes/admin/store.php:9 ../includes/class-admin.php:189
+#: includes/admin/bootstrap.php:292 includes/admin/bootstrap.php:380
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
 msgid "Templates"
 msgstr "Modelos"
 
-#: ../includes/admin/store.php:10
-msgid "Available templates"
-msgstr "Modelos disponíveis"
+#: includes/admin/bootstrap.php:293
+msgid "TotalPoll Store"
+msgstr "Loja TotalPoll"
 
-#: ../includes/admin/templates.php:3
-msgid "Install Templates"
-msgstr "Instale Modelos"
+#: includes/admin/bootstrap.php:293 includes/admin/bootstrap.php:385
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "Loja"
 
-#: ../includes/admin/templates.php:10
-msgid "Install a template in .zip format"
-msgstr "Instalar um modelo no formato. zip"
+#: includes/admin/bootstrap.php:294
+msgid "TotalPoll Tools"
+msgstr "Funcionalidades do TotalPoll"
 
-#: ../includes/admin/templates.php:11
+#: includes/admin/bootstrap.php:294 includes/admin/bootstrap.php:390
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "Funcionalidades"
+
+#: includes/admin/bootstrap.php:295
+msgid "TotalPoll About"
+msgstr "Sobre o TotalPoll"
+
+#: includes/admin/bootstrap.php:295
+msgid "About"
+msgstr "Sobre"
+
+#: includes/admin/bootstrap.php:296
+msgid "TotalPoll Update"
+msgstr "Atualizar TotalPoll"
+
+#: includes/admin/bootstrap.php:296 includes/admin/bootstrap.php:395
+msgid "Update"
+msgstr "Atualizar"
+
+#: includes/admin/bootstrap.php:297
+msgid "TotalPoll Support Center"
+msgstr "Central de Suporte TotalPoll"
+
+#: includes/admin/bootstrap.php:297 includes/admin/bootstrap.php:400
+msgid "Support / Help"
+msgstr "Suporte / Ajuda"
+
+#: includes/admin/bootstrap.php:322 includes/admin/editor.php:107
+msgid "Are you sure?!"
+msgstr "Você tem certeza?!"
+
+#: includes/admin/bootstrap.php:323 includes/admin/editor.php:109
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr ""
+"Mudar o modelo atual requere uma atualização da página. Todas as mudanças "
+"serão salvas agora. Você tem certeza?"
+
+#: includes/admin/bootstrap.php:355 includes/admin/editor/browse/logs.php:115
+#: includes/admin/editor/browse/submissions.php:96
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/admin/bootstrap.php:356 includes/admin/editor/browse/logs.php:118
+#: includes/admin/editor/browse/submissions.php:99
+msgid "Next"
+msgstr "Próximo"
+
+#: includes/admin/bootstrap.php:357
+msgid "Done"
+msgstr "Feito"
+
+#: includes/admin/bootstrap.php:365
+msgid "Welcome!"
+msgstr "Bem Vindo!"
+
+#: includes/admin/bootstrap.php:366
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr ""
+"Você pode acessar às suas pesquisas e conteúdos do TotalPoll através deste "
+"menu."
+
+#: includes/admin/bootstrap.php:370
+msgid "New poll"
+msgstr "Nova pesquisa"
+
+#: includes/admin/bootstrap.php:371
+msgid "You can create your first poll from this page."
+msgstr "Você pode criar a sua primeira pesquisa através dessa página."
+
+#: includes/admin/bootstrap.php:376
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "Através dessa página você pode administrar as extensões do TotalPoll."
+
+#: includes/admin/bootstrap.php:381
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "Através dessa página você pode administrar os modelos do TotalPoll."
+
+#: includes/admin/bootstrap.php:386
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr ""
+"Extende a funcionalidade e aparência do TotalPoll com extensões e modelos "
+"premium."
+
+#: includes/admin/bootstrap.php:391
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "Ferramentas para importação, exportação e migração de pesquisas."
+
+#: includes/admin/bootstrap.php:396
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr "Receba atualizações ativando o TotalPoll via chave de licença Envato."
+
+#: includes/admin/bootstrap.php:401
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "Visite esta página se você precisar de qualquer ajuda com o TotalPoll."
+
+#: includes/admin/bootstrap.php:409
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr ""
+"Primeiras coisas primeiro, vamos dar um título à votação. Por exemplo: "
+"\"Cores Favoritas\""
+
+#: includes/admin/bootstrap.php:417 includes/admin/editor/question.php:7
+msgid "Question"
+msgstr "Pergunta"
+
+#: includes/admin/bootstrap.php:418
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "E, é claro um exemplo de pergunta: \"Qual sua cor favorita?\""
+
+#: includes/admin/bootstrap.php:426 includes/admin/bootstrap.php:462
+#: includes/admin/editor.php:250 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:63
+#: includes/admin/editor/browse/logs.php:98
+#: includes/admin/editor/browse/statistics-cards.php:62
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:77
+#: includes/admin/pages/about.php:62 includes/classes/request.php:251
+msgid "Choices"
+msgstr "Opções"
+
+#: includes/admin/bootstrap.php:427
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr ""
+"Agora vamos introduzir opções nas votações, exemplo: \"Vermelho, verde e "
+"azul.\""
+
+#: includes/admin/bootstrap.php:435 includes/admin/editor/choices.php:33
+msgid "Bulk insertion"
+msgstr "Inserção em massa"
+
+#: includes/admin/bootstrap.php:436
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr ""
+"Dica Pró: Use inserção em massa quando você já possui uma lista de opções."
+
+#: includes/admin/bootstrap.php:444 includes/admin/editor/settings.php:67
+msgid "Limitations"
+msgstr "Limitações"
+
+#: includes/admin/bootstrap.php:445
+msgid "Set limitations to match your needs."
+msgstr "Ajuste as limitações para as suas necessidades."
+
+#: includes/admin/bootstrap.php:453 includes/admin/editor/settings.php:72
+#: includes/admin/pages/options/expressions.php:41
+#: includes/classes/template.php:503
+msgid "Results"
+msgstr "Resultados"
+
+#: includes/admin/bootstrap.php:454
+msgid "Change results settings to match your needs."
+msgstr ""
+"Mudar configurações dos resultados para combinar com suas necessidades."
+
+#: includes/admin/bootstrap.php:463
+msgid "Change choices settings to match your needs."
+msgstr "Mudar configurações das escolhas para combinar com suas necessidades."
+
+#: includes/admin/bootstrap.php:471 includes/admin/editor/settings.php:82
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "Customizar campos"
+
+#: includes/admin/bootstrap.php:472
+msgid "You can manage custom fields from this tab."
+msgstr "Você pode administrar campos customizáveis através dessa aba."
+
+#: includes/admin/bootstrap.php:480 includes/admin/editor/settings.php:87
+msgid "Design"
+msgstr "Design"
+
+#: includes/admin/bootstrap.php:481
+msgid "And polish poll's appearance from this one."
+msgstr "E melhorar a aparência das votações através desta."
+
+#: includes/admin/bootstrap.php:489 includes/admin/editor/settings.php:92
+msgid "Screens"
+msgstr "Telas"
+
+#: includes/admin/bootstrap.php:490
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr "Configure uma mensagem de \"Obrigado\" ou \"Bem Vindo\" nesta aba."
+
+#: includes/admin/bootstrap.php:498 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: includes/admin/bootstrap.php:499
+msgid "Browse the statistics from this tab."
+msgstr "Navegue pelas estatísticas por esta aba."
+
+#: includes/admin/bootstrap.php:507 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:97 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "Registros"
+
+#: includes/admin/bootstrap.php:508
+msgid "You can also browse the logs from this tab."
+msgstr "Você também pode navegar pelos registros através desta aba."
+
+#: includes/admin/bootstrap.php:516 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "Submissões"
+
+#: includes/admin/bootstrap.php:517
+msgid "Lastly, the submissions from this one."
+msgstr "Por fim, as submissões através desta."
+
+#: includes/admin/bootstrap.php:526
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "Cole esse código em qualquer lugar para embutir a votação."
+
+#: includes/admin/bootstrap.php:534
+msgid "Publish"
+msgstr "Publicar"
+
+#: includes/admin/bootstrap.php:535
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr "Você está quase acabando! Agora é hora de publicar a pesquisa."
+
+#: includes/admin/bootstrap.php:543 includes/admin/editor/choices.php:35
+msgid "Reset votes"
+msgstr "Resetar votos"
+
+#: includes/admin/bootstrap.php:544
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"Você pode usar o botão para resetar escolhas de votos a 0. Você também pode "
+"configurar manualmente através do campo \"votos\" abaixo."
+
+#: includes/admin/bootstrap.php:552 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "Obrigado!"
+
+#: includes/admin/bootstrap.php:554
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"Agora você está familiarizado com o básico do TotalPoll. Obrigado pelo seu "
+"tempo! Se você precisar de qualquer ajuda, por favor não hesite em visitar "
+"nossa <a href=\"%s\">Central de Suporte</a>."
+
+#: includes/admin/editor.php:108
+msgid "Extract thumbnail from video URL?"
+msgstr "Extrair miniatura da URL do vídeo?"
+
+#: includes/admin/editor.php:111
+#, php-format
+msgid ""
+"STOP!\n"
+"\n"
+"Some of your changes will be lost because your PHP configuration is limited "
+"to %d inputs per page and unfortunately you have exceeded that limit.\n"
+"\n"
+"Please ask your hosting provider to change the value of 'max_input_vars' in "
+"your PHP.INI file to a higher number.\n"
+"\n"
+"For more details please visit our help center."
+msgstr ""
+
+#: includes/admin/editor.php:244 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:75
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/editor.php:245 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:60
+#: includes/admin/editor/browse/logs.php:95 includes/classes/request.php:250
+msgid "Time"
+msgstr "Hora"
+
+#: includes/admin/editor.php:246 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:61
+#: includes/admin/editor/browse/logs.php:96 includes/classes/request.php:248
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/editor.php:247
+msgid "Platform"
+msgstr "Plataforma"
+
+#: includes/admin/editor.php:248 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:62
+#: includes/admin/editor/browse/logs.php:97
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/classes/request.php:249
+msgid "Browser"
+msgstr "Navegador"
+
+#: includes/admin/editor.php:249 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "Versão"
+
+#: includes/admin/editor.php:251 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:70
+#: includes/admin/editor/browse/logs.php:105 includes/classes/request.php:252
+msgid "Details"
+msgstr "Detalhes"
+
+#: includes/admin/editor.php:252
+msgid "User agent"
+msgstr "Agente de Usuário"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:20
+msgid "Accepted"
+msgstr "Aceito"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:25
+msgid "Denied"
+msgstr "Negado"
+
+#: includes/admin/editor.php:279 includes/admin/editor.php:302
+#: includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:13
+#: includes/admin/editor/browse/submissions-item.php:25
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:146
+msgid "N/A"
+msgstr "N/D"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "Navegar"
+
+#: includes/admin/editor/browse/logs.php:81
+msgid "There are no logs."
+msgstr "Não há registros."
+
+#: includes/admin/editor/browse/logs.php:113
+#: includes/admin/editor/browse/submissions.php:94
+msgid "First"
+msgstr "Primeiro"
+
+#: includes/admin/editor/browse/logs.php:120
+#: includes/admin/editor/browse/submissions.php:101
+msgid "Last"
+msgstr "Último"
+
+#: includes/admin/editor/browse/logs.php:126
+#, php-format
+msgid "One log"
+msgid_plural "%s logs"
+msgstr[0] "Um registro"
+msgstr[1] "%s registros"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/statistics.php:36
+#: includes/admin/editor/browse/submissions.php:111
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "Download"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:113
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:115
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/editor/browse/logs.php:135
+#: includes/admin/editor/browse/statistics.php:38
+#: includes/admin/editor/browse/submissions.php:117
+msgid "or"
+msgstr "ou"
+
+#: includes/admin/editor/browse/logs.php:137
+#: includes/admin/editor/browse/statistics.php:40
+#: includes/admin/editor/browse/submissions.php:119
+msgid "Reset"
+msgstr "Resetar"
+
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:53
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/print.php:22 includes/admin/editor/print.php:30
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+#: includes/admin/pages/options/expressions.php:14
+msgid "Votes"
+msgstr "Votos"
+
+#: includes/admin/editor/browse/statistics-cards.php:32
+msgid "Month"
+msgstr "Mês"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Year"
+msgstr "Ano"
+
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:173
+msgid "Platforms"
+msgstr "Plataformas"
+
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/print.php:21 includes/admin/editor/print.php:30
+msgid "Choice"
+msgstr "Escolha"
+
+#: includes/admin/editor/browse/statistics-cards.php:67
+#: includes/admin/editor/browse/statistics-cards.php:80
+#: includes/admin/editor/browse/statistics-cards.php:95
+#: includes/admin/editor/browse/statistics-cards.php:133
+#: includes/admin/editor/browse/statistics-cards.php:147
+#: includes/admin/editor/browse/statistics-cards.php:164
+#: includes/admin/editor/browse/statistics-cards.php:178
+#: includes/admin/editor/browse/statistics.php:16
+msgid "Insufficient data to analyze."
+msgstr "Dados insuficientes para analisar."
+
+#: includes/admin/editor/browse/statistics-cards.php:90
+msgid "Votes over the last 30 days of activity"
+msgstr "Votos nos últimos 30 dias de atividade"
+
+#: includes/admin/editor/browse/statistics-cards.php:106
+msgid "Votes casted"
+msgstr "Votos emitidos"
+
+#: includes/admin/editor/browse/statistics-cards.php:111
+msgid "Votes casted today"
+msgstr "Votos emitidos hoje"
+
+#: includes/admin/editor/browse/statistics-cards.php:116
+msgid "Votes casted this week"
+msgstr "Votos emitidos nesta semana"
+
+#: includes/admin/editor/browse/statistics-cards.php:121
+msgid "Votes casted this month"
+msgstr "Votos emitidos neste mês"
+
+#: includes/admin/editor/browse/statistics-cards.php:128
+msgid "Votes over months"
+msgstr "Votos por mês"
+
+#: includes/admin/editor/browse/statistics-cards.php:142
+msgid "Votes over years"
+msgstr "Votos por ano"
+
+#: includes/admin/editor/browse/statistics-cards.php:159
+msgid "Browsers"
+msgstr "Navegadores"
+
+#: includes/admin/editor/browse/statistics.php:34
+msgid "Print"
+msgstr "Imprimir"
+
+#: includes/admin/editor/browse/submissions.php:51
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr ""
+"Há submissões armazenadas, mas campos customizáveis devem estar presentes "
+"para pesquisa-las."
+
+#: includes/admin/editor/browse/submissions.php:53
+#: includes/admin/editor/browse/submissions.php:63
+msgid "There are no submissions."
+msgstr "Não há submissões."
+
+#: includes/admin/editor/browse/submissions.php:108
+#, php-format
+msgid "One submission"
+msgid_plural "%s submissions"
+msgstr[0] "Uma submissão"
+msgstr[1] "%s submissões"
+
+#: includes/admin/editor/choices.php:13
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr ""
+"TotalPoll irá sincronizar votos entre traduções automaticamente. Portanto, "
+"as escolhas devem estar na ordem exata em todas as traduções."
+
+#: includes/admin/editor/choices.php:17
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "Texto"
+
+#: includes/admin/editor/choices.php:20
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "Imagem"
+
+#: includes/admin/editor/choices.php:23
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin/editor/choices.php:26
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/admin/editor/choices.php:29
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "Enriquecer"
+
+#: includes/admin/editor/choices.php:40
+msgid "Import"
+msgstr "Importar"
+
+#: includes/admin/editor/choices/audio.php:34
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:34
+#: includes/admin/editor/custom-fields/checkbox.php:55
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "Marcador"
+
+#: includes/admin/editor/choices/audio.php:39
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:39
+msgid "Choice label"
+msgstr "Selecionar Marcador"
+
+#: includes/admin/editor/choices/audio.php:50
+msgid "Full audio url"
+msgstr "URL completa do áudio"
+
+#: includes/admin/editor/choices/audio.php:58
+msgid "Choice full audio url"
+msgstr "URL completa do áudio da opção"
+
+#: includes/admin/editor/choices/audio.php:74
+#: includes/admin/editor/choices/audio.php:129
+#: includes/admin/editor/choices/image.php:66
+#: includes/admin/editor/choices/video.php:75
+#: includes/admin/editor/choices/video.php:130
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "Enviar arquivos"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Thumbnail audio url"
+msgstr "URL da miniatura áudio"
+
+#: includes/admin/editor/choices/audio.php:86
+msgid "Choice thumbnail audio url"
+msgstr "URL da miniatura do áudio da opção"
+
+#: includes/admin/editor/choices/audio.php:94
+#: includes/admin/editor/choices/image.php:87
+#: includes/admin/editor/choices/video.php:95
+msgid "Available sizes"
+msgstr "Tamanhos disponíveis"
+
+#: includes/admin/editor/choices/audio.php:105
+#: includes/admin/editor/choices/image.php:99
+#: includes/admin/editor/choices/video.php:106
+msgid "Upload image first"
+msgstr "Faça upload da imagem primeiro"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "Conteúdo da opção"
+
+#: includes/admin/editor/choices/image.php:42
+msgid "Full image url"
+msgstr "URL Completa da Imagem"
+
+#: includes/admin/editor/choices/image.php:50
+msgid "Choice full image url"
+msgstr "URL completa da imagem da opção"
+
+#: includes/admin/editor/choices/image.php:74
+msgid "Thumbnail image url"
+msgstr "URL da miniatura da imagem"
+
+#: includes/admin/editor/choices/image.php:79
+msgid "Choice thumbnail image url"
+msgstr "URL da miniatura da imagem da opção"
+
+#: includes/admin/editor/choices/video.php:50
+msgid "Full video url"
+msgstr "URL completa do vídeo"
+
+#: includes/admin/editor/choices/video.php:58
+msgid "Choice full video url"
+msgstr "URL completa do vídeo da opção"
+
+#: includes/admin/editor/choices/video.php:82
+msgid "Thumbnail video url"
+msgstr "URL da miniatura do vídeo"
+
+#: includes/admin/editor/choices/video.php:87
+msgid "Choice thumbnail video url"
+msgstr "URL da miniatura do vídeo da opção"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "Caixa de verificação"
+
+#: includes/admin/editor/custom-fields/checkbox.php:35
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "Nome"
+
+#: includes/admin/editor/custom-fields/checkbox.php:40
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "Nome do campo"
+
+#: includes/admin/editor/custom-fields/checkbox.php:60
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "Marcador do campo"
+
+#: includes/admin/editor/custom-fields/checkbox.php:78
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key: Marcador de Opção"
+
+#: includes/admin/editor/custom-fields/checkbox.php:84
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "Opção por linha."
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "Valores Padrões"
+
+#: includes/admin/editor/custom-fields/checkbox.php:98
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:104
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "Valor padrão por linha."
+
+#: includes/admin/editor/custom-fields/checkbox.php:130
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:143
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "Preenchido (requerido)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "Classes do Campo CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "Classes dos campos"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "Marcador de classes CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "Classes de Marcador"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106
+#: includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "Modelo"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "Modelo de campo"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr ""
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr ""
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "Rádio"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "Selecionar"
+
+#: includes/admin/editor/custom-fields/select.php:115
+msgid "Allow multiple values"
+msgstr "Permitir múltiplos valores"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "Incluir nas estatísticas"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "Básico"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+#: includes/admin/pages/options/expressions.php:142
+msgid "Validations"
+msgstr "Validações"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "Valores Padrão"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "Campo padrão"
+
+#: includes/admin/editor/custom-fields/text.php:112
+#: includes/admin/editor/settings/notifications.php:13
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "Único"
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "Filtrar por lista"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "Listar"
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "Palavras por linha."
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "\"+\" antes da palavra significa listado na lista branca."
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "\"-\" antes da palavra significa listado na lista negra."
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "\"*\" significa curinga."
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "Regex"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "Expressão regulas"
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "Precisa ser uma expressão regular válida."
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Error message"
+msgstr ""
+
+#: includes/admin/editor/custom-fields/text.php:230
+#: includes/admin/editor/custom-fields/textarea.php:218
+msgid "Comparison"
+msgstr "Comparação"
+
+#: includes/admin/editor/custom-fields/text.php:241
+#: includes/admin/editor/custom-fields/textarea.php:229
+msgid "Must match"
+msgstr "Deve combinar"
+
+#: includes/admin/editor/custom-fields/text.php:252
+#: includes/admin/editor/custom-fields/textarea.php:240
+msgid "Must not match"
+msgstr "Não deve combinar"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "Área de texto"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "Fileiras"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "Fileiras de campos"
+
+#: includes/admin/editor/header.php:10
+#, php-format
+msgid ""
+"This poll was created with prior version of TotalPoll. Please <a href=\"%s"
+"\">migrate your polls</a>."
+msgstr ""
+"Esta enquete foi criada com uma versão anterior do TotalPoll. Por favor <a "
+"href=\"%s\">migrar suas pesquisas</a>."
+
+#: includes/admin/editor/print.php:10 includes/admin/pages/about.php:111
+#: includes/classes/post-types.php:35 includes/widgets/base.php:74
+#: includes/widgets/base.php:84 includes/widgets/latest.php:77
+#: includes/widgets/random.php:75
+msgid "Poll"
+msgstr "Votação"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin/editor/settings.php:7
+msgid "Default settings"
+msgstr "Configurações padrões"
+
+#: includes/admin/editor/settings.php:102
+msgid "Notifications"
+msgstr "Notificações"
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "Seleção mínima"
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "Seleção máxima"
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 significa ilimitado."
+
+#: includes/admin/editor/settings/choices.php:40
+msgid "Choices per page"
+msgstr "Opções por página"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "Ordenar opções"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr ""
+"Atenção! A ativando isso junto com a paginação pode causar problemas de "
+"desempenho."
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "Aleatório"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "Ordenar direção"
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "Ascender"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "Descender"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "Permitir submissões de usuário"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "Esconder novas submissões para moderação"
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "(Não Ativado)"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "(Não Compatível)"
+
+#: includes/admin/editor/settings/design.php:144
+msgid "Set current settings as defaults"
+msgstr "Selecionar configurações atuais como padrão"
+
+#: includes/admin/editor/settings/design.php:152
+msgid "Reset settings to defaults"
+msgstr "Resetar configurações para o padrão"
+
+#: includes/admin/editor/settings/design.php:163
+msgid "Transition"
+msgstr ""
+
+#: includes/admin/editor/settings/design.php:178
+msgid "Scroll up after vote submit"
+msgstr ""
+
+#: includes/admin/editor/settings/design.php:189
+msgid "Enable one-click vote"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "Bloquear re-votação por Cookies"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:49
+msgid "Advanced"
+msgstr "Avançado"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "Intervalo dos Cookies (minutos)"
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:65
+msgid "0 means permanent."
+msgstr "0 significa permanente."
+
+#: includes/admin/editor/settings/limitations.php:45
+msgid "Block re-vote by IP"
+msgstr "Bloquear re-votação por IP"
+
+#: includes/admin/editor/settings/limitations.php:60
+msgid "IP timeout (minutes)"
+msgstr "Intervalo do IP (minutos)"
+
+#: includes/admin/editor/settings/limitations.php:70
+msgid "Votes per ip"
+msgstr "Votos por IP"
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid "Filter list"
+msgstr "Filtrar lista"
+
+#: includes/admin/editor/settings/limitations.php:83
+msgid "IP Per line."
+msgstr "IP por linha."
+
+#: includes/admin/editor/settings/limitations.php:85
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr ""
+"\"+\" antes do IP significa listado na lista branca /  \"-\" significa "
+"listado na lista negra /  \"*\"  significa curinga"
+
+#: includes/admin/editor/settings/limitations.php:97
+msgid "Block vote via direct link"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:113
+msgid "Require membership"
+msgstr "Exige membro associado"
+
+#: includes/admin/editor/settings/limitations.php:125
+msgid "Membership type"
+msgstr "Tipo de Membro"
+
+#: includes/admin/editor/settings/limitations.php:134
+#: includes/admin/pages/options/sharing.php:35
+msgid "Hold Control/Command for multiple selection."
+msgstr "Manter o Controle/Comando para seleção múltipla."
+
+#: includes/admin/editor/settings/limitations.php:140
+msgid "Allow only one vote per member"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:153
+msgid "Require reCaptcha"
+msgstr "Exige reCaptcha"
+
+#: includes/admin/editor/settings/limitations.php:165
+msgid "Site Key"
+msgstr "Chave do site"
+
+#: includes/admin/editor/settings/limitations.php:173
+msgid "Secret Key"
+msgstr "Chave secreta"
+
+#: includes/admin/editor/settings/limitations.php:188
+msgid "Limit by quota"
+msgstr "Limitar por cota"
+
+#: includes/admin/editor/settings/limitations.php:199
+msgid "Quota (votes)"
+msgstr "Cota (votos)"
+
+#: includes/admin/editor/settings/limitations.php:214
+msgid "Limit by date"
+msgstr "Limitar por data"
+
+#: includes/admin/editor/settings/limitations.php:225
+msgid "Start date"
+msgstr "Data inicial"
+
+#: includes/admin/editor/settings/limitations.php:233
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "Data final"
+
+#: includes/admin/editor/settings/limitations.php:250
+msgid "Regenerate poll unique ID"
+msgstr "Regenerar ID único da votação"
+
+#: includes/admin/editor/settings/limitations.php:252
+msgid "Current:"
+msgstr "Atual:"
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "Habilitar registros"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "Atenção! Estatísticas são baseadas nos registros."
+
+#: includes/admin/editor/settings/logs.php:25
+msgid "Include user ID"
+msgstr ""
+
+#: includes/admin/editor/settings/logs.php:32
+msgid "Include username"
+msgstr ""
+
+#: includes/admin/editor/settings/logs.php:39
+msgid "Include user email"
+msgstr ""
+
+#: includes/admin/editor/settings/notifications.php:27
+#| msgid "Votes casted"
+msgid "New vote has been casted"
+msgstr ""
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "Requer voto"
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "Ordenar resultados"
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "Esconder resultados"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "Até atingir"
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "Cota"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "Conteúdo dos Resultados"
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "Fragmentos de Resultados"
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "Porcentagens"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "Antes de votar"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "Depois de votar"
+
+#: includes/admin/editor/settings/screens.php:63
+msgid "Above vote"
+msgstr "Votos Acima"
+
+#: includes/admin/editor/settings/screens.php:86
+#| msgid "Before voting"
+msgid "Below vote"
+msgstr "Votos abaixo"
+
+#: includes/admin/editor/settings/screens.php:110
+#| msgid "Hide results"
+msgid "Above results"
+msgstr "Resultados acima"
+
+#: includes/admin/editor/settings/screens.php:133
+#| msgid "Hide results"
+msgid "Below results"
+msgstr "Resultados abaixo"
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "Não foi possível acessar o sistema de arquivos."
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "Erro no sistema de arquivos."
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "Não foi possível remover completamente a(s) extensão(s) %s."
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "Pacote de Atualização"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "O pacote está em sua última versão."
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "Atualização do pacote não disponível."
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "Baixando atualização do <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "Descarregando a atualização&#8230;"
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "Removendo a versão antiga dos pacotes&#8230;"
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "Não foi possível remover pacotes antigos."
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "Pacotes atualizados com sucesso."
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "Instalar pacote não disponível."
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "Descarregando o pacote&#8230;"
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "Instalando o pacote&#8230;"
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Baixando pacote de instalação de <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "O pacote não contém nenhum arquivo."
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "A instalação do pacote falhou."
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "Pacote instalado com sucesso."
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "Pacote <strong>%1$s %2$s</strong> instalado com sucesso."
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Preparando para instalar <strong>%1$s %2$s</strong>&#8230;"
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "O modelo não contém a folha de estilo <code>template.php</code> ."
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr ""
+"O arquivo <code>template.php</code> não contém um cabeçalho de modelo válido."
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "O modelo não contém o arquivo <code>%s</code> ."
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"O arquivo <code>template.php</code> não contém a versão mínima requerida."
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "Esse modelo requer TotalPoll versão %s ou superior"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "A extensão não contém o arquivo essencial <code>extension.php</code> ."
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr ""
+"O arquivo <code>extension.php</code> não contém um cabeçalho de extensão "
+"válido."
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"O arquivo <code>extension.php</code> não contém a versão mínima necessária."
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "Essa extensão requer TotalPoll versão %s ou maior"
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "Retornar aos Modelos"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "Retornar às extensões"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "Amigável ao usuário"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user "
+"friendly interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"Com TotalPoll, agora você pode criar votações dentro de 60 segundos! Sua "
+"interface amigável ao usuário foi habilmente concebida para tornar a criação "
+"de pesquisas livre de problemas."
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "Performance geral"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"TotalPoll foi desenvolvido com a performance em mente! Ele funciona sem uma "
+"falha com WordPress."
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "Customização"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"Você precisa de \"mensagem de boas-vindas\" ou \"mensagem de agradecimento"
+"\"? Nós te damos cobertura! Com mais de 5 configurações de customização, "
+"você definitivamente tem o controle total."
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"Coletando informações adicionais dos eleitores nunca foi tão fácil. Com "
+"nossos 5 diferentes tipos de campos exclusivos, você pode absolutamente "
+"coletar tudo."
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"Rastrear votos regularmente se tornou fácil. Agora você pode acompanhar "
+"votos diariamente, semanalmente e mensalmente. Ainda, você pode acompanhar "
+"valores de campos customizáveis com votos."
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "Extensível"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"A extensibilidade do TotalPoll faz essas extensões e modelos possíveis. Os "
+"desenvolvedores podem certamente fazer o TotalPoll dar mais um passo para "
+"atender às suas necessidades."
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "Otimização Amigável"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more "
+"search traffic."
+msgstr ""
+"Otimização para os mecanismos de busca é um fator muito chave para todo "
+"website. Assim, TotalPoll faz votações mais amigáveis para motores de busca, "
+"a fim de obter mais tráfego."
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "Mobile-first"
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"Com TotalPoll, você ganha mais envolvimento com uma experiência de "
+"visualização otimizada para os seus visitantes. E suas pesquisas sempre "
+"parecerão surpreendentes em um laptop, tablet ou em um smartphone."
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "Limitações de voto"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you "
+"to specify conditions under which visitors can vote in a poll or see its "
+"results."
+msgstr ""
+"A capacidade do TotalPoll para reduzir votos e resultados torna mais fácil "
+"para que você possa especificar as condições sob as quais os visitantes "
+"podem votar em uma pesquisa ou ver seus resultados."
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "Importar votações"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"Você está planejando mudar? Você pode migrar do WP-Polls e YOP Polls "
+"facilmente (e muitos mais plugins estão vindo)."
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code "
+"or even HTML."
+msgstr ""
+"Torne suas votações mais atrativas com Texto, Imagem, Vídeo, Áudio, "
+"Shortcode ou até mesmo HTML."
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr ""
+"Rastrear cada voto, com um registro informativo para identificar qualquer "
+"tentativa de fraude."
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr ""
+"Faça as suas votações parecerem mais atraentes com modelos personalizados da "
+"nossa loja."
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr ""
+"Dê à funcionalidade do TotalPoll um passo adiante com extensões poderosas da "
+"nossa loja."
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "Integração"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"TotalPoll integra suas votações em todos os lugares com um código curto, "
+"widget ou mesmo um link direto."
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "Compatibilidade com terceiros"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE "
+"and Others."
+msgstr ""
+"TotalPoll é compatível com outros plug-ins como WPML, ACF, WP SUPER CACHE e "
+"Outros."
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr ""
+"<code>TP_Template</code> pode ser usado agora como um protótipo para modelos."
+
+#: includes/admin/pages/about.php:100
+msgid ""
+"<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr ""
+"<code>TP_Extension</code> pode ser usado agora como um protótipo para "
+"extensões."
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "Campos"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr ""
+"<code>TP_Field</code> pode ser usado agora como um protótipo para campos "
+"customizáveis."
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code> é usado para manipulação e geração de HTML."
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr ""
+"<code>TP_Poll</code> é a classe principal para a manipulação de votação e "
+"renderização."
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "Solicitar"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr ""
+"<code>TP_Request</code> é usado para manipular as solicitações do TotalPoll."
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "Bem vindo ao"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"Obrigado por usar TotalPoll! Esta atualização traz diversas melhorias e "
+"novas funcionalidades, juntamente com correções de bugs conhecidos."
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "Versão %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "Novidades"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "Por baixo do capuz"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "Créditos"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: includes/admin/pages/about.php:279
+msgid "Go to Polls"
+msgstr "Ir para Votações"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204
+#: includes/admin/pages/templates.php:84 includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "Selecionar ação em massa"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206
+#: includes/admin/pages/templates.php:86 includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "Ações em massa"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207
+#: includes/admin/pages/templates.php:87 includes/admin/pages/templates.php:155
+#: includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "Ativar"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208
+#: includes/admin/pages/templates.php:88 includes/admin/pages/templates.php:148
+#: includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209
+#: includes/admin/pages/templates.php:89 includes/admin/pages/templates.php:172
+#: includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "Deletar"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103
+#: includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "Selecionar tudo"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "Extensão"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107
+#: includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "Abrir esse arquivo no editor de plugin"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr "Requer"
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "Por"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "Página de Extensões"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "Sem extensões. Navegue pela <a href=\"%s\">loja</a>."
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading "
+"it here."
+msgstr ""
+"Se você tem uma extensão em um formato .zip, você deve instalá-lo fazendo "
+"upload do arquivo aqui."
+
+#: includes/admin/pages/options.php:26
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: includes/admin/pages/options/expressions.php:7
+msgid "Global"
+msgstr "Global"
+
+#: includes/admin/pages/options/expressions.php:19
+#: includes/classes/template.php:666
+#, php-format
+msgid "%s Vote"
+msgstr "%s Voto"
+
+#: includes/admin/pages/options/expressions.php:20
+#, php-format
+msgid "%s Votes"
+msgstr "%s Votos"
+
+#: includes/admin/pages/options/expressions.php:26
+msgid "Buttons"
+msgstr "Botões"
+
+#: includes/admin/pages/options/expressions.php:31
+#: includes/classes/template.php:461
+msgid "Previous page"
+msgstr "Página Anterior"
+
+#: includes/admin/pages/options/expressions.php:36
+#: includes/classes/template.php:475
+msgid "Next page"
+msgstr "Próxima Página"
+
+#: includes/admin/pages/options/expressions.php:46
+#: includes/classes/template.php:514
+msgid "Vote"
+msgstr "Votar"
+
+#: includes/admin/pages/options/expressions.php:51
+#: includes/classes/template.php:527
+msgid "Back"
+msgstr "Voltar"
+
+#: includes/admin/pages/options/expressions.php:56
+#: includes/classes/template.php:538
+msgid "Proceed"
+msgstr "Prosseguir"
+
+#: includes/admin/pages/options/expressions.php:62
+msgid "Errors"
+msgstr "Erros"
+
+#: includes/admin/pages/options/expressions.php:68
+#: includes/classes/limitations.php:126 includes/classes/limitations.php:165
+#: includes/classes/limitations.php:419
+msgid "You cannot vote again in this poll."
+msgstr "Você não pode votar novamente nesta pesquisa."
+
+#: includes/admin/pages/options/expressions.php:74
+#: includes/classes/limitations.php:192
+#, php-format
+msgid "You have to vote for at least one choice."
+msgstr "Você tem que votar em pelo menos uma opção."
+
+#: includes/admin/pages/options/expressions.php:75
+#, php-format
+#| msgid "You have to vote for at least one choice."
+#| msgid_plural "You have to vote for at least %d choices."
+msgid "You have to vote for at least %d choices."
+msgstr "Você tem que votar em pelo menos %d opções."
+
+#: includes/admin/pages/options/expressions.php:81
+#: includes/classes/limitations.php:204
+#, php-format
+msgid "You cannot vote for more than one choice."
+msgstr "Você não pode votar em mais de uma opção."
+
+#: includes/admin/pages/options/expressions.php:82
+#, php-format
+#| msgid "You cannot vote for more than one choice."
+#| msgid_plural "You cannot vote for more than %d choices."
+msgid "You cannot vote for more than %d choices."
+msgstr "Você não pode votar em mais de %d opções."
+
+#: includes/admin/pages/options/expressions.php:88
+#: includes/classes/limitations.php:244
+msgid "You have entered an invalid captcha code."
+msgstr "Você digitou um código captcha inválido."
+
+#: includes/admin/pages/options/expressions.php:94
+#: includes/classes/limitations.php:268
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "Você não pode votar porque a cota foi excedida."
+
+#: includes/admin/pages/options/expressions.php:100
+#: includes/classes/limitations.php:293
+msgid "You cannot see results before voting."
+msgstr "Você não pode ver os resultados antes de votar."
+
+#: includes/admin/pages/options/expressions.php:106
+#: includes/classes/limitations.php:319
+msgid "You cannot vote because this poll has not started yet."
+msgstr "Você não pode votar porque essa votação não iniciou ainda."
+
+#: includes/admin/pages/options/expressions.php:112
+#: includes/classes/limitations.php:328
+msgid "You cannot vote because this poll has been completed."
+msgstr "Você não pode votar porque essa votação está completada."
+
+#: includes/admin/pages/options/expressions.php:118
+#: includes/classes/limitations.php:372
+msgid "You cannot vote because this poll is not available in your region."
+msgstr ""
+"Você não pode votar porque essa pesquisa não está disponível na sua região."
+
+#: includes/admin/pages/options/expressions.php:124
+#: includes/classes/limitations.php:408
+msgid "You cannot vote because you have insufficient rights."
+msgstr "Você não pode votar porque você tem direitos insuficientes."
+
+#: includes/admin/pages/options/expressions.php:130
+#: includes/classes/limitations.php:430
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> "
+"or <a href=\"%s\">register</a>."
+msgstr ""
+"Você não pode votar porque você é um convidado, por favor <a href=\"%s"
+"\">acesse a sua conta</a> ou <a href=\"%s\">registre-se</a>."
+
+#: includes/admin/pages/options/expressions.php:136
+#: includes/classes/limitations.php:456
+msgid "Voting via links has been disabled for this poll."
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:147
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "O campo %label% não contém um email válido."
+
+#: includes/admin/pages/options/expressions.php:152
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "O campo %label% é requerido."
+
+#: includes/admin/pages/options/expressions.php:157
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "O campo %label%  não contém um valor válido."
+
+#: includes/admin/pages/options/expressions.php:162
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "O campo %label% não suporta múltiplos valores."
+
+#: includes/admin/pages/options/expressions.php:167
+#: includes/classes/validations.php:123
+msgid "%label% has been used before."
+msgstr "%label% já foi usado antes."
+
+#: includes/admin/pages/options/expressions.php:172
+#: includes/classes/validations.php:144
+msgid "%label% field is not valid."
+msgstr "Campo %label% não é válido."
+
+#: includes/admin/pages/options/expressions.php:177
+#: includes/classes/validations.php:182
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "Você não pode votar porque %s campo não é permitido."
+
+#: includes/admin/pages/options/general.php:6
+msgid "Asynchronous loading"
+msgstr ""
+
+#: includes/admin/pages/options/general.php:9
+msgid "This can be useful when TotalPoll is being used with cache plugins."
+msgstr ""
+
+#: includes/admin/pages/options/general.php:15
+msgid "Enable REST API (Preview)"
+msgstr ""
+
+#: includes/admin/pages/options/general.php:18
+msgid ""
+"Access your polls data through an easy-to-use <a href=\"http://v2.wp-api.org/"
+"\">HTTP REST API</a>."
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:8
+msgid "Enable sharing"
+msgstr "Habilitar compartilhamento"
+
+#: includes/admin/pages/options/sharing.php:18
+msgid "Sharing expression"
+msgstr "Expressão para compartilhamento"
+
+#: includes/admin/pages/options/sharing.php:22
+msgid "You can use %question% variable for question text."
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:27
+msgid "Social networks"
+msgstr ""
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "Atualizar (novas compras)"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "Gratuito!"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s Downloads"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "Atualizar para %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "Instalado"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "Instalar"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "Requer %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "Pegar isso"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "Comprar agora"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "Central de Suporte"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "Use palavras-chave comuns para melhores resultados."
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "Confira nossa base de conhecimento."
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "Tem uma pergunta? Leia o FAQ."
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "Abrir um ticket de Suporte."
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr ""
+"Por favor anexe as seguintes informações quando você abrir um novo ticket."
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "Página do Modelo"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "Sem extensões. Navegue pela <a href=\"%s\">loja</a>."
+
+#: includes/admin/pages/templates.php:226
 msgid ""
 "If you have a template in a .zip format, you may install it by uploading it "
 "here."
 msgstr ""
-"Se você tiver um modelo em formato. zip, você pode instalá-lo por meio de "
-"upload aqui."
+"Se você tem um modelo em um formato .zip, você deve instalá-lo fazendo o "
+"upload do arquivo aqui."
 
-#: ../includes/admin/templates.php:15
-msgid "Template zip file"
-msgstr "Arquivo zip de modelo"
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "Votações foram migradas com sucesso."
 
-#: ../includes/admin/templates.php:22
-msgid "Available Templates"
-msgstr "Modelos Disponíveis"
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "A cache foi limpa."
 
-#: ../includes/admin/templates.php:23
-msgid "Available installed templates"
-msgstr "Modelos instalados disponíveis"
-
-#: ../includes/admin/templates.php:48
-msgid "Unknown"
-msgstr "Desconhecido"
-
-#: ../includes/admin/tools.php:6 ../includes/class-admin.php:193
-msgid "TotalPoll Tools"
-msgstr "TotalPoll Tools"
-
-#: ../includes/admin/tools.php:10
-msgid "Backup current polls."
-msgstr "Fazer backup das enquetes atuais."
-
-#: ../includes/admin/tools.php:13
-msgid "Download backup"
-msgstr "Baixar backup"
-
-#: ../includes/admin/tools.php:25
-msgid "Check all"
-msgstr "Marcar todos"
-
-#: ../includes/admin/tools.php:43
-msgid "Upgrade"
-msgstr "Atualizar"
-
-#: ../includes/admin/tools.php:49
-msgid "All polls are compatible with the current version!"
-msgstr "Todas as enquetes são compatíveis com a versão atual!"
-
-#: ../includes/admin/tools.php:52
-msgid "Browse polls"
-msgstr "Procurar enquetes"
-
-#: ../includes/admin/update-notification.php:3
-msgid "There is an new update for TotalPoll plugin."
-msgstr "Há uma nova atualização para o plugin TotalPoll."
-
-#: ../includes/admin/update-notification.php:4
-msgid "Check it out!"
-msgstr "Confira!"
-
-#: ../includes/admin/update-notification.php:6
-msgid "Dismiss"
-msgstr "Dispensar"
-
-#: ../includes/class-addons.php:181
-msgid "Upload Addon"
-msgstr "Upload de Complemento"
-
-#: ../includes/class-addons.php:186
+#: includes/admin/pages/tools.php:52
 #, php-format
-msgid "Installing Addon from uploaded file: %s"
-msgstr "Instalar o Complemento do arquivo carregado: %s"
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "%d Votações para migrar do YOP-Polls"
 
-#: ../includes/class-addons.php:255 ../includes/class-template.php:646
-msgid "Could not access filesystem."
-msgstr "Não pôde acessar o sistema de arquivos."
-
-#: ../includes/class-addons.php:258 ../includes/class-template.php:649
-msgid "Filesystem error."
-msgstr "Erro de sistema de arquivos."
-
-#: ../includes/class-addons.php:263
-msgid "Unable to locate TotalPoll addons directory."
-msgstr "Não é possível localizar o diretório de complementos do TotalPoll."
-
-#: ../includes/class-addons.php:274
+#: includes/admin/pages/tools.php:58
 #, php-format
-msgid "Could not fully remove the addon %s."
-msgstr "Pode não remover totalmente o complemento %s."
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "%d Votações para migrar do WP-Polls"
 
-#: ../includes/class-admin.php:54
-msgid "Title"
-msgstr "Título"
-
-#: ../includes/class-admin.php:56
-msgid "Date"
-msgstr "Data"
-
-#: ../includes/class-admin.php:187
-msgid "Addons Manager"
-msgstr "Gerente de Complementos"
-
-#: ../includes/class-admin.php:187
-msgid "Addons"
-msgstr "Complementos"
-
-#: ../includes/class-admin.php:189
-msgid "Templates Manager"
-msgstr "Gerente de Modelos"
-
-#: ../includes/class-admin.php:191
-msgid "Templates & Addons Store"
-msgstr "Loja de Modelos e Complementos"
-
-#: ../includes/class-admin.php:191
-msgid "Store"
-msgstr "Loja"
-
-#: ../includes/class-admin.php:193
-msgid "Tools"
-msgstr "Ferramentas"
-
-#: ../includes/class-admin.php:195
-msgid "About TotalPoll"
-msgstr "Sobre TotalPoll"
-
-#: ../includes/class-admin.php:195
-msgid "About"
-msgstr "Sobre"
-
-#: ../includes/class-installer-skin.php:23
-msgid "Return to Templates"
-msgstr "Retornar para Modelos"
-
-#: ../includes/class-installer-skin.php:25
-msgid "Return to Addons"
-msgstr "Retornar para Complementos"
-
-#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
-msgid "Install package not available."
-msgstr "Pacote de instalação não está disponível."
-
-#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
-msgid "Unpacking the package&#8230;"
-msgstr "Descompactando o pacote&#8230;"
-
-#: ../includes/class-installer.php:53
-msgid "Installing the template&#8230;"
-msgstr "Instalando o modelo&#8230;"
-
-#: ../includes/class-installer.php:54
-msgid "The template contains no files."
-msgstr "O modelo não contém nenhum arquivo."
-
-#: ../includes/class-installer.php:55
-msgid "Template install failed."
-msgstr "Falha ao instalar modelo."
-
-#: ../includes/class-installer.php:56
-msgid "Template installed successfully."
-msgstr "Modelo instalado com sucesso."
-
-#: ../includes/class-installer.php:58
+#: includes/admin/pages/tools.php:64
 #, php-format
-msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
-msgstr "O modelo <strong>%1$s %2$s</strong> foi instalado com sucesso."
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "%d Votações para migrar do TotalPoll"
 
-#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "Remover cache"
+
+#: includes/admin/pages/tools.php:81
 #, php-format
-msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
-msgstr "Preparando-se para instalar <strong>%1$s %2$s</strong>&#8230;"
+msgid "%d Polls to export"
+msgstr "%d Votações para exportar"
 
-#: ../includes/class-installer.php:64
-msgid "Installing the addon&#8230;"
-msgstr "Instalando o complemento&#8230;"
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "Importar votações"
 
-#: ../includes/class-installer.php:65
-msgid "The addon contains no files."
-msgstr "O complemento não contém nenhum arquivo."
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "Você está recebendo atualizações no momento!"
 
-#: ../includes/class-installer.php:66
-msgid "Addon install failed."
-msgstr "Falha ao instalar o complemento."
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "Obrigado por ativar o TotalPoll."
 
-#: ../includes/class-installer.php:67
-msgid "Addon installed successfully."
-msgstr "Complemento instalado com sucesso."
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "Atualizações"
 
-#: ../includes/class-installer.php:69
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "Você gostaria de receber atualizações quando disponíveis?"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "Por favor digite sua chave de licença Envato."
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr "A chave de licença submetida não é válida. Por favor confira."
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "Ative agora!"
+
+#: includes/admin/partials/notification-email.php:56
+msgid "Deactivate this notifications"
+msgstr ""
+
+#: includes/admin/partials/options-panel.php:11
+msgid "General"
+msgstr "Geral"
+
+#: includes/admin/partials/options-panel.php:16
+msgid "Expressions"
+msgstr "Expressoões"
+
+#: includes/admin/partials/options-panel.php:21
+msgid "Sharing"
+msgstr "Compartilhamento"
+
+#: includes/admin/partials/phpversion.php:89
+msgid "Heads up!"
+msgstr ""
+
+#: includes/admin/partials/welcome.php:140
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: includes/admin/partials/welcome.php:144
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "Dicas, tutoriais e recursos úteis do Wordpress."
+
+#: includes/admin/partials/welcome.php:145
 #, php-format
-msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
-msgstr "O complemento <strong>%1$s %2$s</strong> foi instalado com sucesso."
-
-#: ../includes/class-installer.php:141
-msgid "The template is missing the <code>style.css</code> stylesheet."
-msgstr "Está faltando a folha de estilo <code>style.css</code> no modelo."
-
-#: ../includes/class-installer.php:147
 msgid ""
-"The <code>style.css</code> stylesheet doesn't contain a valid template "
-"header."
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
 msgstr ""
-"A folha de estilo <code>style.css</code> não contém um cabeçalho de modelo "
-"válido."
 
-#: ../includes/class-installer.php:152
-msgid ""
-"The template is missing the <code>vote.php</code> or <code>results.php</"
-"code> file."
-msgstr ""
-"O modelo está faltando o <code>vote.php</code> ou <code>results.php</code> "
-"arquivo."
-
-#: ../includes/class-installer.php:159
-msgid "The addon is missing the <code>addon.php</code> essential file."
-msgstr "O arquivo <code>addon.php</code> está faltando no complemento."
-
-#: ../includes/class-installer.php:165
-msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
-msgstr ""
-"O arquivo <code>addon.php</code> não contém um cabeçalho de complemento "
-"válido."
-
-#: ../includes/class-installer.php:169
-msgid ""
-"The <code>addon.php</code> file doesn't contain a minimum required version."
-msgstr ""
-"O arquivo <code>addon.php</code> não contém uma versão mínima requerida."
-
-#: ../includes/class-installer.php:173
+#: includes/admin/partials/welcome.php:151
 #, php-format
-msgid "This addon require TotalPoll version %s or higher"
-msgstr "Este complemento exige o TotalPoll versão %s ou superior"
-
-#: ../includes/class-logs.php:141
-msgid "\"Date\";\"Time\";\"Status\";\"Choice\";\"IP\";\"User Agent\";\"Extra\""
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
 msgstr ""
-"\"Data\";\"Tempo\";\"Status\";\"Opção\";\"IP\";\"User Agent\";\"Extra\""
+"Conte comigo na <a href=\"%s\" target=\"_blank\">newsletter semanal</a>."
 
-#: ../includes/class-poll-editor.php:131 ../includes/class-poll-editor.php:220
-#: ../includes/class-poll-editor.php:312
-msgid "Choice sample"
-msgstr "Exemplo de Opção"
+#: includes/admin/partials/welcome.php:154
+msgid "No, thank you"
+msgstr "Não, obrigado"
 
-#: ../includes/class-poll-editor.php:219
-msgid "A question"
-msgstr "Uma pergunta"
+#: includes/admin/partials/welcome.php:156
+msgid "Subscribe"
+msgstr "Inscreva-se"
 
-#: ../includes/class-request.php:62
-msgid "You cannot preview this poll. Login first."
-msgstr "Você não pode visualizar esta enquete. Faça o login primeiro."
+#: includes/admin/partials/welcome.php:162
+msgid "Keep in touch with us!"
+msgstr "Fique em contato conosco!"
 
-#: ../includes/class-request.php:103
-msgid "Accepted"
-msgstr "Aceito"
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "Tudo"
 
-#: ../includes/class-request.php:105 ../includes/class-request.php:110
-msgid "Denied"
-msgstr "Negado"
-
-#: ../includes/class-template.php:583
-msgid "Upload Template"
-msgstr "Upload Modelo"
-
-#: ../includes/class-template.php:587
+#: includes/admin/templates.php:189
 #, php-format
-msgid "Installing Template from uploaded file: %s"
-msgstr "Instalando o modelo do arquivo carregado: %s"
+msgid "Could not fully remove the template(s) %s."
+msgstr "Não foi possível remover completamente o(s) modelo(s) %s."
 
-#: ../includes/class-template.php:654
-msgid "Unable to locate TotalPoll templates directory."
-msgstr "Não foi possível localizar o diretório de modelos do TotalPoll."
+#: includes/classes/poll.php:324
+msgid "Other"
+msgstr "Outro"
 
-#: ../includes/class-template.php:661
-#, php-format
-msgid "Could not fully remove the template %s."
-msgstr "Não foi possível remover totalmente o modelo %s."
-
-#: ../includes/class-widget.php:24
-msgid "Poll - TotalPoll"
-msgstr "Enquete - TotalPoll"
-
-#: ../includes/class-widget.php:25
-msgid "Poll widget"
-msgstr "Widget enquete"
-
-#: ../includes/class-widget.php:91 ../includes/class-widget.php:111
-#: ../includes/post-type.php:19
-msgid "Poll"
-msgstr "Enquete"
-
-#: ../includes/class-widget.php:106
-msgid "Title:"
-msgstr "Título:"
-
-#: ../includes/post-type.php:18 ../includes/post-type.php:30
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
 msgid "Polls"
-msgstr "Enquetes"
+msgstr "Votações"
 
-#: ../includes/post-type.php:20
+#: includes/classes/post-types.php:36
 msgid "Add New"
-msgstr "Adicionar Novo"
+msgstr "Adicionar novo"
 
-#: ../includes/post-type.php:21
+#: includes/classes/post-types.php:37
 msgid "Add New Poll"
-msgstr "Adicionar Nova Enquete"
+msgstr "Adicionar nova votação"
 
-#: ../includes/post-type.php:22
+#: includes/classes/post-types.php:38
 msgid "Edit Poll"
-msgstr "Editar Enquete"
+msgstr "Editar votação"
 
-#: ../includes/post-type.php:23
+#: includes/classes/post-types.php:39
 msgid "New Poll"
-msgstr "Nova Enquete"
+msgstr "Nova votação"
 
-#: ../includes/post-type.php:24
+#: includes/classes/post-types.php:40
 msgid "All Polls"
-msgstr "Todas as Enquetes"
+msgstr "Todas as votações"
 
-#: ../includes/post-type.php:25
+#: includes/classes/post-types.php:41
 msgid "View Poll"
-msgstr "Visualizar Enquete"
+msgstr "Ver votações"
 
-#: ../includes/post-type.php:26
+#: includes/classes/post-types.php:42
 msgid "Search Polls"
-msgstr "Procurar Enquetes"
+msgstr "Pesquisar votações"
 
-#: ../includes/post-type.php:27
+#: includes/classes/post-types.php:43
 msgid "No polls found"
-msgstr "Nenhuma enquete encontrada"
+msgstr "Nenhuma votação encontrada"
 
-#: ../includes/post-type.php:28
+#: includes/classes/post-types.php:44
 msgid "No polls found in Trash"
-msgstr "Nenhuma enquete foi encontrada na lixeira"
+msgstr "Nenhuma votação na lixeira"
 
-#: ../includes/post-type.php:73
+#: includes/classes/post-types.php:56
+msgid "poll"
+msgstr "votação"
+
+#: includes/classes/post-types.php:58
+msgid "polls"
+msgstr "votações"
+
+#: includes/classes/post-types.php:88
 #, php-format
 msgid "Poll updated. <a href=\"%s\">View poll</a>"
-msgstr "Enquete atualizada. <a href=\"%s\">Visualizar enquete</a>"
+msgstr "Votação atualizada. <a href=\"%s\">Visualizar votação</a>"
 
-#: ../includes/post-type.php:74
+#: includes/classes/post-types.php:89
 msgid "Custom field updated."
-msgstr "Campo personalizado atualizado."
+msgstr "Campo customizado atualizado."
 
-#: ../includes/post-type.php:75
+#: includes/classes/post-types.php:90
 msgid "Custom field deleted."
-msgstr "Campo personalizado excluído."
+msgstr "Campo customizável deletado."
 
-#: ../includes/post-type.php:76
+#: includes/classes/post-types.php:91
 msgid "Poll updated."
-msgstr "Enquete atualizada."
+msgstr "Votação atualizada."
 
-#: ../includes/post-type.php:77
+#: includes/classes/post-types.php:92
 #, php-format
 msgid "Poll restored to revision from %s"
-msgstr "Enquete restaurada para a revisão de %s"
+msgstr "Votação restaurada para revisão de %s"
 
-#: ../includes/post-type.php:78
+#: includes/classes/post-types.php:93
 #, php-format
 msgid "Poll published. <a href=\"%s\">View poll</a>"
-msgstr "Enquete publicada. <a href=\"%s\">Visualizar enquete</a>"
+msgstr "Votação publixada. <a href=\"%s\">Visualizar votação</a>"
 
-#: ../includes/post-type.php:79
+#: includes/classes/post-types.php:94
 msgid "Poll saved."
-msgstr "Enquete salva."
+msgstr "Votação salva."
 
-#: ../includes/post-type.php:80
+#: includes/classes/post-types.php:95
 #, php-format
 msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
 msgstr ""
-"Enquete enviada. <a target=\"_blank\" href=\"%s\">Pré-visualizar enquete</a>"
+"Votação submetida. <a target=\"_blank\" href=\"%s\">Pré-visualizar votação</"
+"a>"
 
-#: ../includes/post-type.php:81
+#: includes/classes/post-types.php:97
 #, php-format
 msgid ""
 "Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
 "\">Preview poll</a>"
 msgstr ""
-"Enquete agendada para: <strong>%1$s</strong>. <a target=\"_blank\" href="
-"\"%2$s\">Pré-visualizar enquete</a>"
+"Votação programada para: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Pré-visualizar votação</a>"
 
-#: ../includes/post-type.php:81
+#: includes/classes/post-types.php:98
 msgid "M j, Y @ G:i"
 msgstr "M j, Y @ G:i"
 
-#: ../includes/post-type.php:82
+#: includes/classes/post-types.php:99
 #, php-format
 msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
 msgstr ""
-"Rascunho da enquete atualizado. <a target=\"_blank\" href=\"%s\">Pré-"
-"visualizar enquete</a>"
+"Rascunho da votação atualizado. <a target=\"_blank\" href=\"%s\">Pré-"
+"visualizar votação</a>"
 
-#: ../templates/chartify/header.php:3 ../templates/default/header.php:3
-msgid "Closed due to the exceeded votes quota"
-msgstr "Fechada devido a quota excedida de votos"
-
-#: ../templates/chartify/header.php:7 ../templates/default/header.php:7
-msgid "This poll isn't started yet."
-msgstr "Esta enquete ainda não começou."
-
-#: ../templates/chartify/header.php:11 ../templates/default/header.php:11
-msgid "This poll has been closed."
-msgstr "Esta enquete foi encerrada."
-
-#: ../templates/chartify/results.php:21 ../templates/default/results.php:47
-msgid "Back"
-msgstr "Voltar"
-
-#: ../templates/chartify/results.php:37 ../templates/chartify/results.php:38
-#: ../templates/chartify/results.php:39 ../templates/default/results.php:24
-#: ../templates/default/results.php:28
+#: includes/classes/request.php:256
 #, php-format
-msgid "%s Vote"
-msgid_plural "%s Votes"
-msgstr[0] "%s Voto"
-msgstr[1] "%s Votos"
+#| msgid "Fields"
+msgid "Field: %s"
+msgstr "Campo: %s"
 
-#: ../templates/chartify/settings.php:7 ../templates/default/settings.php:9
-msgid "General settings"
-msgstr "Configurações gerais"
-
-#: ../templates/chartify/settings.php:11 ../templates/default/settings.php:13
-msgid "Choices per row"
-msgstr "Opções por linha"
-
-#: ../templates/chartify/settings.php:16 ../templates/default/settings.php:18
-msgid "Container border"
-msgstr "Borda do recipiente"
-
-#: ../templates/chartify/settings.php:21 ../templates/default/settings.php:23
-msgid "Container background"
-msgstr "Fundo do recipiente"
-
-#: ../templates/chartify/settings.php:26 ../templates/default/settings.php:28
-msgid "Warning messages background"
-msgstr "Fundo das mensagens de aviso"
-
-#: ../templates/chartify/settings.php:31 ../templates/default/settings.php:33
-msgid "Warning messages border"
-msgstr "Borda das mensagens de aviso"
-
-#: ../templates/chartify/settings.php:36 ../templates/default/settings.php:38
-msgid "Warning messages text color"
-msgstr "Cor do texto das mensagens de aviso"
-
-#: ../templates/chartify/settings.php:41 ../templates/default/settings.php:43
-msgid "Question background"
-msgstr "Fundo da pergunta"
-
-#: ../templates/chartify/settings.php:46 ../templates/default/settings.php:48
-msgid "Question color"
-msgstr "Cor da pergunta"
-
-#: ../templates/chartify/settings.php:51 ../templates/default/settings.php:53
-msgid "Choice color"
-msgstr "Cor da opção"
-
-#: ../templates/chartify/settings.php:56 ../templates/default/settings.php:58
-msgid "Checkbox background"
-msgstr "Fundo do checkbox"
-
-#: ../templates/chartify/settings.php:61 ../templates/default/settings.php:63
-msgid "Animation duration (ms)"
-msgstr "Duração da animação (ms)"
-
-#: ../templates/chartify/settings.php:66 ../templates/default/settings.php:68
-msgid "Border radius (px)"
-msgstr "Raio da borda  (px)"
-
-#: ../templates/chartify/settings.php:72 ../templates/default/settings.php:74
-msgid "Buttons"
-msgstr "Botões"
-
-#: ../templates/chartify/settings.php:76 ../templates/default/settings.php:78
-#: ../templates/default/settings.php:119
-msgid "Background"
-msgstr "Plano de fundo"
-
-#: ../templates/chartify/settings.php:82 ../templates/default/settings.php:84
-msgid "Primary background"
-msgstr "Fundo principal"
-
-#: ../templates/chartify/settings.php:88 ../templates/default/settings.php:90
-msgid "Default color"
-msgstr "Cor padrão"
-
-#: ../templates/chartify/settings.php:94 ../templates/default/settings.php:96
-msgid "Primary color"
-msgstr "Cor principal"
-
-#: ../templates/chartify/settings.php:100
-#: ../templates/chartify/settings.php:106
-#: ../templates/default/settings.php:102 ../templates/default/settings.php:108
-msgid "Border color"
-msgstr "Cor da borda"
-
-#: ../templates/chartify/settings.php:113
-msgid "Charts"
-msgstr "Gráficos"
-
-#: ../templates/chartify/settings.php:117
-msgid "Chart Type"
-msgstr "Tipo de Gráfico"
-
-#: ../templates/chartify/settings.php:122
-msgid "Pie"
-msgstr "Pizza"
-
-#: ../templates/chartify/settings.php:126
-msgid "Doughnut"
-msgstr "Rosca"
-
-#: ../templates/chartify/settings.php:130
-msgid "Polar Area"
-msgstr "Polar"
-
-#: ../templates/chartify/settings.php:136
-msgid "Canvas Max Size (px)"
-msgstr "Tamanho Máximo do Canvas"
-
-#: ../templates/chartify/settings.php:141
-msgid "Chart Animation"
-msgstr "Animação do Gráfico"
-
-#: ../templates/chartify/settings.php:146
-msgid "Enabled"
-msgstr "Ativado"
-
-#: ../templates/chartify/settings.php:150
-msgid "Disabled"
-msgstr "Desativado"
-
-#: ../templates/chartify/settings.php:156
-msgid "Animation Easing"
-msgstr "Atenuação da Animação"
-
-#: ../templates/chartify/settings.php:161
-msgid "linear"
-msgstr "linear"
-
-#: ../templates/chartify/settings.php:164
-msgid "swing"
-msgstr "balanço"
-
-#: ../templates/chartify/settings.php:167
-msgid "easeOutQuad"
-msgstr "easeOutQuad"
-
-#: ../templates/chartify/settings.php:170
-msgid "easeOutCubic"
-msgstr "easeOutCubic"
-
-#: ../templates/chartify/settings.php:173
-msgid "easeOutQuart"
-msgstr "easeOutQuart"
-
-#: ../templates/chartify/settings.php:176
-msgid "easeOutQuint"
-msgstr "easeOutQuint"
-
-#: ../templates/chartify/settings.php:179
-msgid "easeOutExpo"
-msgstr "easeOutExpo"
-
-#: ../templates/chartify/settings.php:182
-msgid "easeOutSine"
-msgstr "easeOutSine"
-
-#: ../templates/chartify/settings.php:185
-msgid "easeOutCirc"
-msgstr "easeOutCirc"
-
-#: ../templates/chartify/settings.php:188
-msgid "easeOutElastic"
-msgstr "easeOutElastic"
-
-#: ../templates/chartify/settings.php:191
-msgid "easeOutBack"
-msgstr "easeOutBack"
-
-#: ../templates/chartify/settings.php:194
-msgid "easeOutBounce"
-msgstr "easeOutBounce"
-
-#: ../templates/chartify/settings.php:200
-msgid "Legend Map"
-msgstr "Legenda"
-
-#: ../templates/chartify/settings.php:205
-msgid "Labels On Tooltip"
-msgstr "Rótulos na Dica de Ferramenta"
-
-#: ../templates/chartify/settings.php:209
-msgid "Below"
-msgstr "Abaixo"
-
-#: ../templates/chartify/settings.php:213
-msgid "Float"
-msgstr "Flutuando"
-
-#: ../templates/chartify/settings.php:219
-msgid "Map Backround"
-msgstr "Plano de Fundo do Mapa"
-
-#: ../templates/chartify/settings.php:221
-msgid "Hover"
-msgstr "Hover"
-
-#: ../templates/chartify/settings.php:225
-msgid "Map Hover Border"
-msgstr "Borda do Hover do Mapa"
-
-#: ../templates/chartify/settings.php:230
-msgid "Tooltip Fill Color"
-msgstr "Cor de Preenchimento de Dica de Ferramenta"
-
-#: ../templates/chartify/settings.php:235
-msgid "Tooltip Font Color"
-msgstr "Cor da Fonte da Dica de Ferramenta"
-
-#: ../templates/chartify/settings.php:241
-msgid "Chart Colors"
-msgstr "Cores do Gráfico"
-
-#: ../templates/chartify/settings.php:245
+#: includes/classes/request.php:263
 #, php-format
-msgid "Color for choice #%s"
-msgstr "Cor para a opção #%s"
+msgid "Poll notification: New vote - %s"
+msgstr ""
 
-#: ../templates/chartify/settings.php:246
-#, php-format
-msgid "Highlight color for choice #%s"
-msgstr "Cor de realce para a opção #%s"
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "Votação - TotalPoll"
 
-#: ../templates/chartify/settings.php:252
-#: ../templates/default/settings.php:135
-msgid "Typography"
-msgstr "Tipografia"
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "Widget de votação"
 
-#: ../templates/chartify/settings.php:256
-#: ../templates/default/settings.php:139
-msgid "Line height"
-msgstr "Altura da linha"
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "Título:"
 
-#: ../templates/chartify/settings.php:261
-#: ../templates/default/settings.php:144
-msgid "Font Family"
-msgstr "Família da Fonte"
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "Útilmas Votações  - TotalPoll"
 
-#: ../templates/chartify/settings.php:266
-#: ../templates/default/settings.php:149
-msgid "Font Size"
-msgstr "Tamanho fonte"
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "Votação Aleatória - TotalPoll"
 
-#: ../templates/chartify/vote.php:35 ../templates/default/vote.php:35
-msgid "Vote to see results"
-msgstr "Vote para ver os resultados"
+#~ msgid ""
+#~ "One choice per line.\n"
+#~ "Red\n"
+#~ "Green\n"
+#~ "Blue"
+#~ msgstr ""
+#~ "Uma escolha por linha.\n"
+#~ "Azul\n"
+#~ "Verde\n"
+#~ "Vermelho"
 
-#: ../templates/chartify/vote.php:37 ../templates/default/vote.php:37
-msgid "Results"
-msgstr "Resultados"
+#~ msgid "Choice visibility"
+#~ msgstr "Visibilidade da opção"
 
-#: ../templates/chartify/vote.php:39 ../templates/default/vote.php:39
-msgid "Vote"
-msgstr "Votar"
+#~ msgid "This field value must be unique in submissions table."
+#~ msgstr "Este valor de campo deve ser exclusivo na tabela de pedidos."
 
-#: ../templates/default/settings.php:115
-msgid "Votes bar"
-msgstr "Barra de votos"
+#~ msgid "The minimum number of choices to be sent."
+#~ msgstr "O número mínimo de escolhas a serem enviados."
 
-#: ../templates/default/settings.php:125
-msgid "Bar color"
-msgstr "Cor da Barra"
+#~ msgid "The maximum number of choices to be sent."
+#~ msgstr "O número máximo de opções para ser enviado."
 
-#~ msgid "Canvas Height (px)"
-#~ msgstr "Altura do Canvas (px)"
+#~ msgid "The order direction (ascending or descending)."
+#~ msgstr "A direção da ordem (crescente ou decrescente)."
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Install Now"
+#~ msgstr "Instalar"
+
+#~ msgid "What can we help you with?"
+#~ msgstr "Em que podemos ajudá-lo?"
+
+#~ msgctxt "slug"
+#~ msgid "poll"
+#~ msgstr "votação"
+
+#~ msgctxt "slug"
+#~ msgid "polls"
+#~ msgstr "votações"
+
+#~ msgid "Coming soon"
+#~ msgstr "Em Breve"
